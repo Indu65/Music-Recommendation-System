@@ -1,20 +1,4 @@
 # Moosic - Facial emotion detection based music recommendation system
-#### Submission for Microsoft Engage 2022
-![logo](https://user-images.githubusercontent.com/81975567/170825957-55b94708-4893-4e13-a4aa-c5fa4ca9b070.png)
-
-This project is built as a part of [Engage Mentorship Program 2022](https://acehacker.com/microsoft/engage2022) by Microsoft.
-
-### Table of Contents
-1. [About the Project](#about)
-2. [Useful Links](#useful-links)
-3. [Features](#features)
-4. [Dependencies](#dependencies)
-5. [Instructions](#instructions)
-6. [System Architecture](#system-architechture)
-7. [Structure of this repository](#repository-structure)
-8. [Future Scope](#future-scope)
-9. [References](#references)
-
 
 ### About
 This repository demonstrates an end-to-end pipeline for real-time Facial emotion recognition application along with reccommending music based on detected emotions.
@@ -26,27 +10,9 @@ Done in three steps:
 The model is trained for 50 epochs and runs at 87% accuracy.
 ![image](https://user-images.githubusercontent.com/81975567/170823927-bd313103-7b34-42fd-9635-1b913ec65667.png)
 
-### Useful Links
-- [Demo Video](https://drive.google.com/file/d/18LERP3mieY1IuGvB4rP2dNVi7-gSJYCW/view?usp=sharing)
-- [Sprint Document](https://drive.google.com/file/d/16Hw_z2g4PVrzBO97enPeikW0-3zO8n5i/view?usp=sharing)
-- [Design Document](https://docs.google.com/presentation/d/1XoSN0gW_lVGJQSsLhSe6WVx80PbyMRAg/edit?usp=sharing&ouid=109023606663997444374&rtpof=true&sd=true)
-
 ### Features
 1. Landing Page
 ![image](https://user-images.githubusercontent.com/81975567/170835333-7a69618e-3f3c-46e9-90b1-b6fc72cc5553.png)
-
-
-Seamless landing page filled with dark-theme.
-
-2. Detection of various emotions like [Sad, Angry, Happy, Neutral, Surprise]
-![image](https://user-images.githubusercontent.com/81975567/170837282-d7f80ebc-cb69-4b86-ba6e-5f1c3f58e7d8.png)
-
-3. Detection of various gestures like [Hello, Thumbsup, Nope, Rock]
-![image](https://user-images.githubusercontent.com/81975567/170837584-d47e2b7f-0499-4a99-b8f3-25a8e743d97d.png)
-
-
-
-
 
 ### Dependencies
 This project depends on Python and following packages which can be easily installed through `requirements.txt` file by running the following command:
@@ -77,10 +43,6 @@ This project depends on Python and following packages which can be easily instal
  - [app](/app.py) This file contain the setup of final web app.
  - [model](/model.h5) This file contains the trained model.
  - [Emotion Detection](./Emotion%20Detection) This folder contains python scripts to train the model.
- - [.streamlit](./.streamlit) This folder contains configuration files for the streamlit theme in Web App.
-
-
-
 
 ### Future Scope
 - Deploying the web app.
